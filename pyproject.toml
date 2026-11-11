@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dg645"
+version = "0.1.0"
+description = "Python library for the SRS DG645 digital delay generator over RS-232"
+requires-python = ">=3.10"
+dependencies = ["pyserial>=3.5"]
+
+[project.optional-dependencies]
+test = ["pytest>=8"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

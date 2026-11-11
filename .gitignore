@@ -218,3 +218,11 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# DG645 project: third-party material kept locally only (public repository).
+# The SRS manual and the text extracted from it:
+documents/
+resources/DG645_manual.txt
+# Reference clones, see resources/NOTES.md:
+resources/srsinst.dg645/
+resources/srsgui/
